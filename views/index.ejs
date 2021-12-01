@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Analysis</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <input type="file" accept="image/*" name="image" id="imageFile">
+    <canvas id="imgCanvas">
+
+    </canvas>
+    <div id="inputContainer" style="visibility: hidden;">
+        <input type="checkbox" id="op0" name="op10">
+        <label for="op0">Original</label><br>
+        <input type="checkbox" id="op1" name="op1">
+        <label for="op1">Grayscale</label><br>
+        <input type="checkbox" id="op2" name="op2">
+        <label for="op2">Light vs Dark</label><br>
+        <input type="checkbox" id="op3" name="op3">
+        <label for="op3">Deviation for Color (Outlines)</label><br>
+        <input type="checkbox" id="op4" name="op4">
+        <label for="op4">Red</label><br>
+        <input type="checkbox" id="op5" name="op5">
+        <label for="op5">Green</label><br>
+        <input type="checkbox" id="op6" name="op6">
+        <label for="op6">Blue</label><br>
+        <input type="checkbox" id="op7" name="op7">
+        <label for="op7">Red Bias</label><br>
+        <input type="checkbox" id="op8" name="op8">
+        <label for="op8">Green Bias</label><br>
+        <input type="checkbox" id="op9" name="op9">
+        <label for="op9">Blue Bias</label><br>
+        <button id="imageDownload">
+            Download
+        </button>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
